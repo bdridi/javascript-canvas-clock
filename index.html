@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    #clock {
+      margin-bottom: 30px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>   Javascript Canvas Clock ! </h1>
+
+  <canvas id="clock" width="700" height="700"></canvas>
+
+  <fieldset>
+    <legend>Correct Time </legend>
+
+
+    <input type="text" name="t_hours" id="t_hours" placeholder="hours" />
+    <input type="text" name="t_minutes" id="t_minutes" placeholder="minutes" />
+    <input type="text" name="t_seconds" id="t_seconds" placeholder="seconds" />
+
+    <input type="button" value="Fix Time" onclick="FixTime();" />
+  </fieldset>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  
+  
+</body>
+
+</html>
